@@ -11,15 +11,9 @@ ATTENTION			= /bin/echo -e "\x1b[1m\x1b[33m\#\#\x1b[31m $1\x1b[0m"
 ERROR				= /bin/echo -e "\x1b[1m\x1b[33m\#\#\x1b[31m $1\x1b[0m"
 DONE				= /bin/echo -e "\x1b[1m\x1b[33m\#\#\x1b[34m $1\x1b[0m"
 
-
-## ========================================================================== ##
-PATH_INIT		=	./sources/initialisation/
-INIT			=	basics.c										\
-					main.c
-
-
-## ========================================================================== ##
-SRC				=	$(addprefix $(PATH_INIT), $(INIT))
+SRC				=	sources/main.c										\
+					sources/process.c								\
+					sources/display.c
 
 
 .PHONY:			 all, fclean, clean, re, library, tests_run
@@ -30,7 +24,7 @@ CC				= 	@gcc
 
 INCLUDE_DIR		=	./include
 
-CFLAGS			=	-g -I./include/ -D_GNU_SOURCE -Wall -Wextra -pedantic -O3 -O2 -Wunused
+CFLAGS			=	-g -I./include/ -D_GNU_SOURCE
 
 LDFLAGS 		= 	-lm -lcsfml-graphics -lcsfml-window -lcsfml-system -lcsfml-audio
 

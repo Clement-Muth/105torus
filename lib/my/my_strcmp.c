@@ -5,8 +5,10 @@
 ** my_strcmp
 */
 
-int my_strcmp(const char *compared, const char *comparing)
+#include "include/my.h"
+
+_Bool my_strcmp(const char *compared, const char *comparing)
 {
-    while (*compared++ == *comparing++ && *compared && *comparing);
-    return (*compared == 0) ? (0) : (1);
+    for (; *compared == *comparing && *compared; *compared++, *comparing++);
+    return (*compared == 0 && *compared == *comparing) ? (true) : (false);
 }

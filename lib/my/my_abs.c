@@ -1,11 +1,13 @@
 /*
-** EPITECH PROJECT, 2019
-** PSU_my_sokoban_2019
+** EPITECH PROJECT, 2020
+** my
 ** File description:
-** my_opposite_nbr
+** my_abs
 */
+
+#include "include/my.h"
 
 int my_abs(int nbr)
 {
-    return (nbr < 0) ? ((nbr * nbr) / nbr) : (-nbr);
+    return (nbr < 0) ? (nbr *= (-1)) : (nbr);
 }

@@ -1,12 +1,18 @@
 /*
-** EPITECH PROJECT, 2020
-** 105torus_2019
+** EPITECH PROJECT, 2019
+** 104intersection
 ** File description:
 ** define
 */
 
 #ifndef DEFINE_H_
 #define DEFINE_H_
+
+
+////////////////////////////////////////////////////////////
+/// HEADER
+///
+////////////////////////////////////////////////////////////
 
 
 #endif /* !DEFINE_H_ */

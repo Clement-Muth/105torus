@@ -26,6 +26,9 @@
 #include <dirent.h>
 #include <pwd.h>
 #include <grp.h>
+#include <sys/wait.h>
+#include <errno.h>
+#include <limits.h>
 #include "main/my/my.h"
 #include "main/my_printf/my_printf.h"
 #include "struct.h"
