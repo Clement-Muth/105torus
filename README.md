@@ -9,9 +9,9 @@ The objective of this project is to solve a 4th degree equation: a4x⁴ + a3x³ 
 resolution method does exist (Ferrari’s method), but does not generalize to higher degrees. Thus, we will
 rather compare 3 iterative algorithms:
 
-• The bisection method,
-• Newton’s method,
-• The secant method.
+• The bisection method,     
+• Newton’s method,     
+• The secant method.     
 
     Equations to be solved here will all have one and only one solution, in the [0, 1] interval.
     This is the solution we are looking for. The initial value for Newton’s method will be 0.5,
