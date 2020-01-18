@@ -15,8 +15,7 @@ rather compare 3 iterative algorithms:
 
     Equations to be solved here will all have one and only one solution, in the [0, 1] interval.
     This is the solution we are looking for. The initial value for Newton’s method will be 0.5,
-    those for the 2 other methods will be 0 and 1.
-
+    those for the 2 other methods will be 0 and 1.      
 
     Just in case you would need it, the derivative of the polynomial function x → a4x⁴ +
-    a3x³ + a2x² + a1x + a0 is the function x 7→ 4a4x³ + 3a3x² + 2a2x + a1
+    a3x³ + a2x² + a1x + a0 is the function x → 4a4x³ + 3a3x² + 2a2x + a1
